@@ -1,0 +1,87 @@
+[2023-10-19 23:47:20] INFO [django.utils.autoreload.run_with_reloader:668] Watching for file changes with StatReloader
+[2023-10-19 23:47:20] INFO [django.utils.autoreload.run_with_reloader:668] Watching for file changes with StatReloader
+[2023-10-19 23:47:24] INFO [django.utils.autoreload.run_with_reloader:668] Watching for file changes with StatReloader
+[2023-10-19 23:47:24] INFO [django.utils.autoreload.run_with_reloader:668] Watching for file changes with StatReloader
+[2023-10-19 23:47:58] INFO [django.utils.autoreload.run_with_reloader:668] Watching for file changes with StatReloader
+[2023-10-19 23:47:58] INFO [django.utils.autoreload.run_with_reloader:668] Watching for file changes with StatReloader
+[2023-10-19 23:48:25] INFO [django.utils.autoreload.run_with_reloader:668] Watching for file changes with StatReloader
+[2023-10-19 23:48:25] INFO [django.utils.autoreload.run_with_reloader:668] Watching for file changes with StatReloader
+[2023-10-19 23:54:23] INFO [django.utils.autoreload.run_with_reloader:668] Watching for file changes with StatReloader
+[2023-10-19 23:54:23] INFO [django.utils.autoreload.run_with_reloader:668] Watching for file changes with StatReloader
+[2023-10-19 23:55:05] INFO [django.utils.autoreload.trigger_reload:266] /Users/leandroparra/Projects/ciclo-pit-8880-bobs/root/config.py changed, reloading.
+[2023-10-19 23:55:05] INFO [django.utils.autoreload.trigger_reload:266] /Users/leandroparra/Projects/ciclo-pit-8880-bobs/root/config.py changed, reloading.
+[2023-10-19 23:55:06] INFO [django.utils.autoreload.run_with_reloader:668] Watching for file changes with StatReloader
+[2023-10-19 23:55:06] INFO [django.utils.autoreload.run_with_reloader:668] Watching for file changes with StatReloader
+[2023-10-19 23:55:10] INFO [django.utils.autoreload.run_with_reloader:668] Watching for file changes with StatReloader
+[2023-10-19 23:55:10] INFO [django.utils.autoreload.run_with_reloader:668] Watching for file changes with StatReloader
+[2023-10-19 23:56:16] INFO [django.utils.autoreload.run_with_reloader:668] Watching for file changes with StatReloader
+[2023-10-19 23:56:16] INFO [django.utils.autoreload.run_with_reloader:668] Watching for file changes with StatReloader
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET / HTTP/1.1" 200 24413
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/css/fonts-v2.css HTTP/1.1" 200 1059
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/js/contact-v2.js HTTP/1.1" 200 1845
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/js/stores-v1.js HTTP/1.1" 200 2357
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/css/page-v4.css HTTP/1.1" 200 5210
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/css/home-v5.css HTTP/1.1" 200 11110
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/img/onde-encontrar.png HTTP/1.1" 200 746
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/img/produto-selos-frango.png HTTP/1.1" 200 8959
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/img/popup-crispy-bacon.png HTTP/1.1" 200 16893
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/img/linhas-selos.png HTTP/1.1" 200 19324
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/img/produto-double-cheese.png HTTP/1.1" 200 122225
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/img/produto-crispy-bacon.png HTTP/1.1" 200 124410
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/img/produto-selos-carne.png HTTP/1.1" 200 9199
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/img/popup-crispy-bacon-mobile.png HTTP/1.1" 200 17390
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/img/logo.png HTTP/1.1" 200 2615
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/img/popup-cheddar-australiano-mobile.png HTTP/1.1" 200 17440
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/img/waves-separator.png HTTP/1.1" 200 2919
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/img/linhas-board.png HTTP/1.1" 200 210008
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/img/produto-cheddar-australiano.png HTTP/1.1" 200 212928
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/img/linhas-board-mobile.png HTTP/1.1" 200 312257
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/img/produto-mini.png HTTP/1.1" 200 91019
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/img/produto-molho.png HTTP/1.1" 200 61721
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/img/waves-separator-red.png HTTP/1.1" 200 2491
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/img/logo-footer.png HTTP/1.1" 200 3465
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/img/facebook.png HTTP/1.1" 200 423
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/img/instagram.png HTTP/1.1" 200 499
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/css/fonts/Omnes.woff2 HTTP/1.1" 200 11188
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/img/produto-cheeseburger.png HTTP/1.1" 200 161306
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/img/ciclo-v1.png HTTP/1.1" 200 61536
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/img/banner-v2.png HTTP/1.1" 200 577471
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/css/fonts/MicrobrewTwo.woff2 HTTP/1.1" 200 195268
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/img/waves-menu.png HTTP/1.1" 200 1275
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/img/waves-big-up.png HTTP/1.1" 200 2049
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/img/linhas-selos-mobile.png HTTP/1.1" 200 38038
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/img/popup-double-cheese-mobile.png HTTP/1.1" 200 16698
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/img/bg-rocks.jpeg HTTP/1.1" 200 309115
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/css/fonts/MicrobrewSoftFour.woff2 HTTP/1.1" 200 359756
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/img/popup-cheddar-australiano.png HTTP/1.1" 200 17121
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/img/waves-big-down.png HTTP/1.1" 200 2092
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/img/popup-mini.png HTTP/1.1" 200 15667
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/img/popup-cheeseburger.png HTTP/1.1" 200 16884
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/img/popup-cheeseburger-mobile.png HTTP/1.1" 200 17187
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/img/popup-mini-mobile.png HTTP/1.1" 200 16147
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/img/popup-double-cheese.png HTTP/1.1" 200 16477
+[2023-10-19 23:56:21] INFO [django.server.log_message:212] "GET /static/img/experiencia.jpeg HTTP/1.1" 200 619943
+[2023-10-19 23:56:22] INFO [django.server.log_message:212] "GET /static/data/lojas.json HTTP/1.1" 200 9398
+[2023-10-19 23:56:22] INFO [django.server.log_message:212] "GET /static/img/favicon-16x16.png HTTP/1.1" 200 446
+[2023-10-19 23:56:34] INFO [django.server.log_message:212] "GET /politica-de-cookies HTTP/1.1" 200 21863
+[2023-10-19 23:56:35] INFO [django.server.log_message:212] "GET /static/css/static-v1.css HTTP/1.1" 200 343
+[2023-10-19 23:56:39] INFO [django.server.log_message:212] "GET /politica-de-privacidade HTTP/1.1" 200 42201
+[2023-10-20 00:07:36] INFO [django.utils.autoreload.run_with_reloader:668] Watching for file changes with StatReloader
+[2023-10-20 00:07:36] INFO [django.utils.autoreload.run_with_reloader:668] Watching for file changes with StatReloader
+[2023-10-20 00:07:46] INFO [django.server.log_message:212] "GET / HTTP/1.1" 200 24413
+[2023-10-20 00:07:46] INFO [django.server.handle_error:81] - Broken pipe from ('127.0.0.1', 53716)
+[2023-10-20 00:07:46] INFO [django.server.handle_error:81] - Broken pipe from ('127.0.0.1', 53714)
+[2023-10-20 00:08:17] INFO [django.server.log_message:212] "GET /static/img/experiencia-mobile.jpeg HTTP/1.1" 200 373097
+[2023-10-20 00:08:17] INFO [django.server.log_message:212] "GET /static/img/bg-banner-mobile.png HTTP/1.1" 200 671946
+[2023-10-20 00:08:44] INFO [django.utils.autoreload.trigger_reload:266] /Users/leandroparra/Projects/ciclo-PIT-8880-bobs/webapp/urls.py changed, reloading.
+[2023-10-20 00:08:44] INFO [django.utils.autoreload.trigger_reload:266] /Users/leandroparra/Projects/ciclo-PIT-8880-bobs/webapp/urls.py changed, reloading.
+[2023-10-20 00:08:44] INFO [django.utils.autoreload.run_with_reloader:668] Watching for file changes with StatReloader
+[2023-10-20 00:08:44] INFO [django.utils.autoreload.run_with_reloader:668] Watching for file changes with StatReloader
+[2023-10-20 00:08:50] WARNING [django.request.log_response:241] Not Found: /termos-de-uso
+[2023-10-20 00:08:50] WARNING [django.request.log_response:241] Not Found: /termos-de-uso
+[2023-10-20 00:08:50] WARNING [django.server.log_message:212] "GET /termos-de-uso HTTP/1.1" 404 3162
+[2023-10-20 00:08:52] INFO [django.server.log_message:212] "GET /termos-de-uso2 HTTP/1.1" 200 27800
+[2023-10-20 00:08:59] INFO [django.utils.autoreload.trigger_reload:266] /Users/leandroparra/Projects/ciclo-PIT-8880-bobs/webapp/urls.py changed, reloading.
+[2023-10-20 00:08:59] INFO [django.utils.autoreload.trigger_reload:266] /Users/leandroparra/Projects/ciclo-PIT-8880-bobs/webapp/urls.py changed, reloading.
+[2023-10-20 00:08:59] INFO [django.utils.autoreload.run_with_reloader:668] Watching for file changes with StatReloader
+[2023-10-20 00:08:59] INFO [django.utils.autoreload.run_with_reloader:668] Watching for file changes with StatReloader

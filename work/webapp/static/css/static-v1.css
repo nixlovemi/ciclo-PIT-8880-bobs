@@ -1,0 +1,25 @@
+.text-section {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.text-col * {
+  font-size: 18px;
+  font-family: "Omnes";
+}
+
+p.text-title {
+  padding-top: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Microbrew Soft Four";
+  font-size: 48px;
+}
+
+.text-col a {
+  color: #e2211c;
+}
+
+.text-col p {
+  padding-top: 10px;
+}

@@ -1,0 +1,681 @@
+/* banner */
+.banner-section {
+  margin-top: -10px;
+  background-image: url("../img/bg-rocks.jpeg");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+.banner-image-div {
+  text-align: center;
+}
+
+.banner-image {
+  width: 70%;
+}
+
+@media (max-width: 767px) {
+  .banner-section {
+    margin-top: -20px;
+    background-image: url("../img/bg-banner-mobile.png");
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: center;
+    height: 150vw;
+  }
+  .banner-image {
+    display: none !important;
+  }
+}
+
+/* linhas */
+.linhas-waves-up {
+  height: 34px;
+  background-image: url("../img/waves-big-up.png");
+  background-repeat: repeat-x;
+  width: 100vw;
+  margin-top: -80px;
+}
+
+.linhas-section {
+  background-color: #e2211c;
+  color: #ffffff;
+}
+
+.linhas-title {
+  padding-top: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Microbrew Soft Four";
+  font-size: 48px;
+}
+
+.linhas-text {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Omnes";
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.linhas-text > strong {
+  font-size: 18px;
+  font-family: "Omnes";
+}
+
+.linhas-board {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.linhas-board-image {
+  width: 50%;
+}
+
+.linhas-selos {
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+.linhas-selos-image {
+  width: 40%;
+}
+
+@media (max-width: 767px) {
+  .linhas-waves-up {
+    height: 1.4vw;
+    background-size: 100%;
+    margin-top: -21px;
+  }
+  .linhas-board-image {
+    width: 100%;
+  }
+}
+
+/* experiencia */
+.experiencia-section {
+  height: 45vw;
+  background-image: url("../img/experiencia.jpeg");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  color: #ffffff;
+}
+
+.experiencia-waves-down {
+  height: 34px;
+  background-image: url("../img/waves-big-down.png");
+  background-repeat: repeat-x;
+  width: 100vw;
+  margin-top: -34px;
+}
+
+.experiencia-title {
+  padding-top: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Microbrew Soft Four";
+  font-size: 55px;
+}
+
+@media (max-width: 767px) {
+  .experiencia-section {
+    height: 105vw;
+    background-image: url("../img/experiencia-mobile.jpeg");
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    color: #ffffff;
+  }
+  .experiencia-waves-down {
+    height: 1.4vw;
+    background-size: 100%;
+    margin-top: -25px;
+  }
+  .experiencia-title {
+    padding-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Microbrew Soft Four";
+    font-size: 35px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+/* products */
+.products-waves-up {
+  height: 34px;
+  background-image: url("../img/waves-big-up.png");
+  background-repeat: repeat-x;
+  width: 100vw;
+  margin-top: -34px;
+}
+
+.products-section {
+  background-color: #e2211c;
+  color: #ffffff;
+  padding-bottom: 60px;
+}
+
+.products-title {
+  padding-top: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Microbrew Soft Four";
+  font-size: 48px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.products-text {
+  text-align: center;
+  font-size: 18px;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: "Omnes";
+}
+
+.products-text > strong {
+  font-size: 18px;
+  font-family: "Omnes";
+}
+
+.products-separator {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.products-separator-image {
+  width: 50%;
+}
+
+.product-title {
+  text-transform: uppercase;
+  font-family: "Microbrew Soft Four";
+  font-size: 40px;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+
+.product-text {
+  font-size: 16px;
+  font-family: "Omnes";
+}
+
+.product-text > strong {
+  font-size: 16px;
+  font-family: "Omnes";
+}
+
+.product-selos {
+  padding-top: 20px;
+}
+
+.product-selos > img {
+  width: 70%;
+}
+
+.product-image {
+  width: 120%;
+}
+
+.product-left-text-col {
+  z-index: 200;
+}
+
+.product-left-text-col > .product-title {
+  text-align: right;
+}
+
+.product-left-text-col > .product-text {
+  text-align: right;
+}
+
+.product-left-text-col > .product-selos {
+  text-align: right;
+}
+
+.product-image-cheddar-australiano {
+  margin-left: -100px;
+  margin-top: -200px;
+}
+
+.product-image-crispy-bacon {
+  margin-top: -150px;
+}
+
+.product-image-double-cheese {
+  margin-left: -100px;
+  margin-top: -200px;
+}
+
+.product-image-cheeseburger {
+  margin-top: -180px;
+}
+
+.product-image-mini {
+  width: 80%;
+}
+
+.product-image-molho {
+  width: 150%;
+  margin-top: -20px;
+}
+
+.popup-cheddar-australiano {
+  position: absolute;
+  width: 70%;
+  top: 100px;
+  left: 0px;
+  display: none;
+}
+
+.popup-crispy-bacon {
+  position: absolute;
+  width: 70%;
+  top: 65px;
+  right: 0px;
+  display: none;
+}
+
+.popup-double-cheese {
+  position: absolute;
+  width: 70%;
+  top: 100px;
+  left: 0px;
+  display: none;
+}
+
+.popup-cheeseburger {
+  position: absolute;
+  width: 70%;
+  top: 70px;
+  right: 0px;
+  display: none;
+}
+
+.popup-mini {
+  position: absolute;
+  width: 70%;
+  top: 100px;
+  left: 0px;
+  display: none;
+}
+
+.popup-cheddar-australiano-mobile {
+  position: absolute;
+  top: -80px;
+  width: 90%;
+  left: 5%;
+  display: none;
+  z-index: 200;
+}
+
+.popup-crispy-bacon-mobile {
+  position: absolute;
+  top: -80px;
+  width: 90%;
+  left: 5%;
+  display: none;
+  z-index: 200;
+}
+
+.popup-double-cheese-mobile {
+  position: absolute;
+  top: -80px;
+  width: 90%;
+  left: 5%;
+  display: none;
+  z-index: 200;
+}
+
+.popup-cheeseburger-mobile {
+  position: absolute;
+  top: -100px;
+  width: 90%;
+  left: 5%;
+  display: none;
+  z-index: 200;
+}
+
+.popup-mini-mobile {
+  position: absolute;
+  top: -60px;
+  width: 90%;
+  left: 5%;
+  display: none;
+  z-index: 200;
+}
+
+@media (max-width: 767px) {
+  .products-waves-up {
+    height: 1.4vw;
+    background-size: 100%;
+    margin-top: -21px;
+  }
+  .products-separator-image {
+    width: 80%;
+  }
+  .products-title {
+    font-size: 35px;
+  }
+  .product-title {
+    text-align: center !important;
+  }
+  .product-text {
+    text-align: center !important;
+  }
+  .product-selos {
+    text-align: center !important;
+  }
+  .product-selos {
+    padding-bottom: 20px;
+  }
+  .product-selos > img {
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 100%;
+  }
+  .product-image {
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 100%;
+  }
+  .product-image-cheddar-australiano {
+    margin-left: 0px;
+    margin-top: -80px;
+  }
+  .product-image-crispy-bacon {
+    margin-top: -60px;
+  }
+  .product-image-double-cheese {
+    margin-left: 0px;
+    margin-top: -80px;
+  }
+  .product-image-cheeseburger {
+    margin-top: -80px;
+  }
+  .product-image-mini {
+    padding-top: 10px;
+    padding-left: 15%;
+    width: 100%;
+  }
+  .product-image-molho {
+    width: 100%;
+    margin-top: 0px;
+  }
+}
+
+/* contact */
+.contact-section {
+  background-image: url("../img/bg-rocks.jpeg");
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  color: #ffffff;
+  padding-bottom: 80px;
+}
+
+.contact-waves-down {
+  height: 34px;
+  background-image: url("../img/waves-big-down.png");
+  background-repeat: repeat-x;
+  width: 100vw;
+  margin-top: -34px;
+}
+
+.contact-title1 {
+  font-family: "Omnes";
+  font-size: 24px;
+  line-height: 1;
+  padding-bottom: 20px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.contact-title1 > strong {
+  font-family: "Omnes";
+  font-size: 24px;
+}
+
+.contact-title2 {
+  text-transform: uppercase;
+  font-family: "Microbrew Soft Four";
+  font-size: 40px;
+  line-height: 1;
+  padding-bottom: 20px;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.contact-separator {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.contact-separator-image {
+  width: 40%;
+}
+
+.contact-form-title {
+  text-transform: uppercase;
+  font-family: "Microbrew Soft Four";
+  font-size: 40px;
+  line-height: 1;
+  padding-bottom: 10px;
+  text-align: right;
+}
+
+.contact-form-text {
+  font-family: "Omnes";
+  font-size: 20px;
+  line-height: 1.2;
+  padding-bottom: 20px;
+  text-align: right;
+}
+
+.contact-form input,
+select {
+  line-height: 230%;
+}
+
+.contact-form select {
+  height: 42px;
+}
+
+.contact-form textarea {
+  line-height: 175%;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select,
+.contact-form select > option {
+  border: 1px;
+  width: 70%;
+  color: #000000;
+  font-size: 18px;
+  font-family: "Omnes";
+  font-weight: 100;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #eaeaea;
+  border-radius: 8px;
+}
+
+.contact-form select:invalid {
+  color: #e2211c;
+}
+
+.contact-send-line {
+  width: 100%;
+  color: #ffffff;
+  font-weight: 100;
+}
+
+.contact-send {
+  width: fit-content;
+  font-size: 18px;
+  font-family: "Omnes";
+  font-weight: 800;
+  border: 1px;
+  background-color: #e2211c;
+  border-radius: 8px;
+  border-color: #e2211c;
+  border-style: solid;
+  padding: 12px;
+}
+
+@media (max-width: 767px) {
+  .contact-waves-down {
+    height: 1.4vw;
+    background-size: 100%;
+    margin-top: -25px;
+  }
+  .contact-pin {
+    padding-top: 30px;
+    width: 40px;
+  }
+  .contact-title2 {
+    font-size: 35px;
+  }
+  .contact-separator-image {
+    width: 80%;
+  }
+  .contact-form-title {
+    text-align: center;
+  }
+  .contact-form-text {
+    text-align: center;
+  }
+  .contact-form input,
+  textarea,
+  select,
+  select > option {
+    width: 100%;
+  }
+}
+
+/* lojas */
+.lojas-box {
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #e2211c;
+  border-radius: 30px;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  height: auto;
+  overflow: auto;
+}
+
+.lojas-form select {
+  height: 35px;
+}
+
+.lojas-form select,
+.lojas-form select > option {
+  border: 1px;
+  width: 40%;
+  color: #000000;
+  font-size: 18px;
+  font-family: "Omnes";
+  font-weight: 100;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #eaeaea;
+  border-radius: 8px;
+}
+
+.lojas-form select:invalid {
+  color: #e2211c;
+}
+
+/* stores */
+.store-city {
+  font-size: 16px;
+  font-family: "Omnes";
+  font-weight: 800;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  clear: left;
+}
+
+.store-item {
+  background-color: #c31813;
+  border-radius: 8px;
+  width: 30%;
+  float: left;
+  padding: 8px;
+  margin-right: 2%;
+  margin-bottom: 16px;
+}
+
+.store-name {
+  font-size: 14px;
+  font-family: "Omnes";
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.store-address {
+  font-size: 12px;
+  font-family: "Omnes";
+  font-weight: 100;
+  text-transform: none;
+}
+
+.store-postal-code {
+  font-size: 12px;
+  font-family: "Omnes";
+  font-weight: 100;
+  text-transform: none;
+}
+
+.store-address > a {
+  font-family: "Omnes";
+  font-weight: 800;
+  text-decoration: underline;
+}
+
+.store-address > a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 991px) {
+  .lojas-form select,
+  .lojas-form select > option {
+    width: 100%;
+  }
+  .store-item {
+    width: 46%;
+  }
+}
+
+@media (max-width: 767px) {
+  .lojas-form select,
+  .lojas-form select > option {
+    width: 100%;
+  }
+
+  .lojas-box {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+  }
+
+  .store-item {
+    width: 100%;
+    float: none;
+  }
+}

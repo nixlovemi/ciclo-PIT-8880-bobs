@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Microbrew Soft Four";
+  src: url("fonts/MicrobrewSoftFour.woff2") format("woff2"),
+    url("fonts/MicrobrewSoftFour.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Microbrew Two";
+  src: url("fonts/MicrobrewTwo.woff2") format("woff2"),
+    url("fonts/MicrobrewTwo.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Omnes";
+  src: url("fonts/Omnes.woff2") format("woff2"),
+    url("fonts/Omnes.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Omnes";
+  src: url("fonts/Omnes.woff2") format("woff2"),
+    url("fonts/Omnes.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Omnes";
+  src: url("fonts/Omnes.woff2") format("woff2"),
+    url("fonts/Omnes.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

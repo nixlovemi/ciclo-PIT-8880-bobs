@@ -1,0 +1,387 @@
+[
+  {
+    "state": "SP",
+    "city": "(redes de supermercados)",
+    "name": "SHIBATA SUPERMERCADOS",
+    "address": "consulte em: <br/>  https://shibata.com.br",
+    "postal_code": ""
+  },
+  {
+    "state": "SP",
+    "city": "(redes de supermercados)",
+    "name": "REDE ST MARCHE",
+    "address": "consulte em: <br/> https://www.marche.com.br",
+    "postal_code": ""
+  },
+  {
+    "state": "SP",
+    "city": "(redes de supermercados)",
+    "name": "SUPERMERCADOS VIOLETA",
+    "address": "consulte em: <br/> https://supermercadovioleta.com.br",
+    "postal_code": ""
+  },
+  {
+    "state": "RJ",
+    "city": "Rio De Janeiro",
+    "name": "FARINHA PURA",
+    "address": "consute em: <br/> https://loja.farinhapura.com.br",
+    "postal_code": ""
+  },
+  {
+    "state": "PR",
+    "city": "Curitiba",
+    "name": "BOB'S DRIVE POSTO FAROL",
+    "address": "Rod. 277 Curitiba-Ponta Grossa, 3076",
+    "postal_code": "82305-100"
+  },
+  {
+    "state": "PR",
+    "city": "Curitiba",
+    "name": "BOB'S ÁGUA VERDE",
+    "address": "R. Guilherme Pugsley, 2160",
+    "postal_code": "80620-000"
+  },
+  {
+    "state": "PR",
+    "city": "Curitiba",
+    "name": "SHOPPING ESTAÇÃO",
+    "address": "Av. Sete De Setembro, 2775",
+    "postal_code": "80230-010"
+  },
+  {
+    "state": "PR",
+    "city": "Curitiba",
+    "name": "SHOPPING PALLADIUM",
+    "address": "Av. Presidente Kennedy, 4121",
+    "postal_code": "80610-905"
+  },
+  {
+    "state": "PR",
+    "city": "Guarapuava",
+    "name": "HIPERMERCADO SUPERPAO",
+    "address": "Av. Prefeito Moacir Julio Silvestri, 901",
+    "postal_code": "08503-000"
+  },
+  {
+    "state": "PR",
+    "city": "Ponta Grossa",
+    "name": "SHOPPING PALLADIUM PONTA GROSSA",
+    "address": "R. Emerlindo de Leão, 703 (piso superior)",
+    "postal_code": "84085-000"
+  },
+  {
+    "state": "PR",
+    "city": "Toledo",
+    "name": "BOB'S SHOPPING PANAMBI",
+    "address": "R. Haroldo Hamilton, 478",
+    "postal_code": "85905-390"
+  },
+  {
+    "state": "SC",
+    "city": "Porto União",
+    "name": "BOB'S DRIVE PORTO UNIÃO",
+    "address": "R. Cel Benjamin Belarmino, 29",
+    "postal_code": "89400-000"
+  },
+  {
+    "state": "SC",
+    "city": "Criciúma",
+    "name": "SHOPPING CRICIUMA",
+    "address": "Av. Gabriel Zanette, 1455",
+    "postal_code": "88815-060"
+  },
+  {
+    "state": "SC",
+    "city": "Balneário Camboriú",
+    "name": "SHOPPING BALNEARIO CAMBORIU",
+    "address": "Av. Santa Catarina, 01",
+    "postal_code": "88339-900"
+  },
+  {
+    "state": "SC",
+    "city": "Florianópolis",
+    "name": "BOB'S DRIVE ESTREITO",
+    "address": "R. General Eurico Gaspar Dutra, 1375",
+    "postal_code": "88070-001"
+  },
+  {
+    "state": "SC",
+    "city": "Criciúma",
+    "name": "BOBS CALÇADÃO CRICIUMA",
+    "address": "R. Conselheiro João Zanetti, 17",
+    "postal_code": "08801-050"
+  },
+  {
+    "state": "SC",
+    "city": "Criciúma",
+    "name": "QUIOSQUE SHOPPING CRICIUMA",
+    "address": "Av. Gabriel Zanetti, 1455",
+    "postal_code": "88815-060"
+  },
+  {
+    "state": "SC",
+    "city": "Sombrio",
+    "name": "QUIOSQUE SHOPPING OUTLET JAPONÊS",
+    "address": "Rod. BR 101, 1473",
+    "postal_code": "88960-000"
+  },
+  {
+    "state": "SC",
+    "city": "Criciúma",
+    "name": "BOB´S NAÇÕES SHOPPING CRICIÚMA",
+    "address": "Av. Jorge Elias De Lucca, 677",
+    "postal_code": "88813-390"
+  },
+  {
+    "state": "SC",
+    "city": "Blumenau",
+    "name": "BLUMENAU NORTE SHOPPING",
+    "address": "Rod. BR 470, 3000",
+    "postal_code": "89065-800"
+  },
+  {
+    "state": "RS",
+    "city": "Porto Alegre",
+    "name": "SHOPPING IGUATEMI PORTO ALEGRE",
+    "address": "R. João Wallig, 1800 - Loja 165",
+    "postal_code": "91340-000"
+  },
+  {
+    "state": "RS",
+    "city": "Caxias Do Sul",
+    "name": "BOB'S SHOPPING IGUATEMI CAXIAS DO SUL",
+    "address": "Rod. Rsc 453, 2780",
+    "postal_code": "95032-898"
+  },
+  {
+    "state": "RS",
+    "city": "Porto Alegre",
+    "name": "BOB'S SHOPPING BOURBON WALLIG",
+    "address": "Av. Assis Brasil, 2611",
+    "postal_code": "91010-006"
+  },
+  {
+    "state": "RS",
+    "city": "Rio Grande",
+    "name": "BOB'S LOJA RIO GRANDE",
+    "address": "R. Vinte E Quatro  De  Maio, 385",
+    "postal_code": "96200-003"
+  },
+  {
+    "state": "SC",
+    "city": "Concórdia",
+    "name": "BOB'S RUA DO COMERCIO",
+    "address": "R. Do Comercio, 180",
+    "postal_code": "89700-000"
+  },
+  {
+    "state": "RS",
+    "city": "Porto Alegre",
+    "name": "SHOPPING TOTAL PORTO ALEGRE",
+    "address": "Av. Cristóvão Colombo, 545",
+    "postal_code": "90560-003"
+  },
+  {
+    "state": "RS",
+    "city": "Canoas",
+    "name": "BOB'S PARK SHOPPING CANOAS",
+    "address": "Av. Guilherme Schell, 6750",
+    "postal_code": "92310-001"
+  },
+  {
+    "state": "SC",
+    "city": "Caçador",
+    "name": "BOB'S CAÇADOR",
+    "address": "Barão Do Rio Branco, 217",
+    "postal_code": "89500-000"
+  },
+  {
+    "state": "MA",
+    "city": "São Luís",
+    "name": "BOBS SHOPPING SAO LUIS",
+    "address": "Av. Prof. Carlos Cunha, 1000",
+    "postal_code": "65076-820"
+  },
+  {
+    "state": "MA",
+    "city": "Imperatriz",
+    "name": "SHOPPING IMPERIAL SHOPPING",
+    "address": "Rod. BR 010, Nº 100",
+    "postal_code": "65903-390"
+  },
+  {
+    "state": "MA",
+    "city": "Imperatriz",
+    "name": "TOCANTINS SHOPPING",
+    "address": "R. Piaui, 580",
+    "postal_code": "65901-600"
+  },
+  {
+    "state": "RJ",
+    "city": "Petrópolis",
+    "name": "POSTO BR ITAIPAVA",
+    "address": "Est. União Industrial, 11880",
+    "postal_code": "25730-745"
+  },
+  {
+    "state": "SP",
+    "city": "Araraquara",
+    "name": "SHOPPING JARAGUÁ ARARAQUARA",
+    "address": "Av. Alberto Benassi, 2270",
+    "postal_code": "14804-300"
+  },
+  {
+    "state": "ES",
+    "city": "Aracruz",
+    "name": "SHOPPING ORIUNDI",
+    "address": "Av. Florestal, 555",
+    "postal_code": "29192-154"
+  },
+  {
+    "state": "PR",
+    "city": "Cascavel",
+    "name": "SHOPPING JL CASCAVEL SHOPPING",
+    "address": "Av. Toledo 432 - Loja 223, 223",
+    "postal_code": "85810-230"
+  },
+  {
+    "state": "PR",
+    "city": "Foz Do Iguaçu",
+    "name": "SHOPPING CATARATAS JL SHOPPING",
+    "address": "Av. Costa E Silva, 185",
+    "postal_code": "85863-000"
+  },
+  {
+    "state": "MA",
+    "city": "São Luís",
+    "name": "BOBS GOLDEN CALHAU SHOPPING",
+    "address": "Av. Dos Holandeses, 200",
+    "postal_code": "65071-380"
+  },
+  {
+    "state": "RJ",
+    "city": "Araruama",
+    "name": "ARARUAMA CENTRO",
+    "address": "Av. Brasil, 18",
+    "postal_code": "28970-000"
+  },
+  {
+    "state": "RJ",
+    "city": "Saquarema",
+    "name": "BOB'S SAQUAREMA",
+    "address": "R. Beatriz Amaral, 26",
+    "postal_code": "28990-000"
+  },
+  {
+    "state": "RJ",
+    "city": "Nova Iguaçu",
+    "name": "SHOPPING NOVA IGUAÇU",
+    "address": "Av. Abílio Augusto Távora, 1111",
+    "postal_code": "26260-045"
+  },
+  {
+    "state": "SP",
+    "city": "Paulínia",
+    "name": "BOB'S DRIVE PAULINIA",
+    "address": "Av. Presidente Getúlio Vargas, 910",
+    "postal_code": "13140-482"
+  },
+  {
+    "state": "PR",
+    "city": "Curitiba",
+    "name": "DRIVE SÍTIO CERCADO",
+    "address": "R. Izaac Ferreira Da Cruz, 2035",
+    "postal_code": "81870-000"
+  },
+  {
+    "state": "PB",
+    "city": "Patos",
+    "name": "BOB'S PRACA GETÚLIO VARGAS - PATOS",
+    "address": "Praça Getúlio Vargas, 25",
+    "postal_code": "58700-230"
+  },
+  {
+    "state": "MG",
+    "city": "Belo Horizonte",
+    "name": "VIA SHOPPING BARREIRO",
+    "address": "Av. Afonso Vaz De Melo, 640",
+    "postal_code": "30640-070"
+  },
+  {
+    "state": "MG",
+    "city": "Belo Horizonte",
+    "name": "SHOPPING DEL REY SHOPPING",
+    "address": "Av. Presidente Carlos Luiz, 3001",
+    "postal_code": "31250-900"
+  },
+  {
+    "state": "SP",
+    "city": "São Paulo",
+    "name": "SHOPPING ARICANDUVA SP",
+    "address": "Av. Aricanduva, 5555",
+    "postal_code": "03527-900"
+  },
+  {
+    "state": "SP",
+    "city": "São Paulo",
+    "name": "BOB'S SHOPPING METRO TATUAPÉ",
+    "address": "R. Melo Freire, S/N",
+    "postal_code": "03314-030"
+  },
+  {
+    "state": "SP",
+    "city": "São Paulo",
+    "name": "SHOPPING METRO ITAQUERA",
+    "address": "Av. José Pinheiro Borges, S/N",
+    "postal_code": "08220-385"
+  },
+  {
+    "state": "BA",
+    "city": "Camaçari",
+    "name": "BOULEVARD SHOPPING CAMAÇARI",
+    "address": "R. Boulevard Shopping Camacari (Via Parafuso)",
+    "postal_code": "42800-970"
+  },
+  {
+    "state": "GO",
+    "city": "Goiânia",
+    "name": "DRIVE ASSIS CHATEAUBRIAND",
+    "address": "Av. Assis Chateaubriand, 1122",
+    "postal_code": "74130-011"
+  },
+  {
+    "state": "PR",
+    "city": "Umuarama",
+    "name": "DRIVE UMUARAMA",
+    "address": "Av. Londrina, 4030",
+    "postal_code": "87502-250"
+  },
+  {
+    "state": "CE",
+    "city": "Juazeiro Do Norte",
+    "name": "SHOPPING CARIRI",
+    "address": "Av. Padre Cícero, 2555",
+    "postal_code": "63041-140"
+  },
+  {
+    "state": "AM",
+    "city": "Manaus",
+    "name": "MANAUARA SHOPPING",
+    "address": "Av. Mário Ypiranga, 1300",
+    "postal_code": "69057-002"
+  },
+  {
+    "state": "SP",
+    "city": "Campinas",
+    "name": "CAMPINAS PRAÇA GENERAL OSÓRIO",
+    "address": "R. Gal. Osório, 985",
+    "postal_code": "13010-111"
+  },
+  {
+    "state": "PR",
+    "city": "Francisco Beltrão",
+    "name": "FRANCISCO BELTRÃO",
+    "address": "R. Tenente Camargo, 1795",
+    "postal_code": "85601-610"
+  }
+]
