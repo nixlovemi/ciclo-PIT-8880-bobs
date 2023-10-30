@@ -1,0 +1,181 @@
+{% extends "page-tmp.html" %}
+{% load static %}
+
+{% block stylesheet %}
+<link rel="stylesheet" href="{% static 'css/home-v5.css' %}">
+{% endblock %}
+
+{% block script %}
+<script>
+var CONTACT_SUCCESS = "Mensagem enviada com sucesso!";
+var CONTACT_ERROR = "Erro ao enviar mensagem. Tente novamente mais tarde!";
+var CONTACT_SEND = "Enviar Mensagem";
+var CONTACT_SENDING = "Enviando...";
+
+var CONTACT_MISSING_CHANNEL = "Você precisa selecionar uma opção do Fale Conosco.";
+var CONTACT_MISSING_NAME = "O campo Nome precisa ser preenchido.";
+var CONTACT_MISSING_EMAIL = "O campo E-mail precisa ser preenchido.";
+var CONTACT_INVALID_EMAIL = "E-mail precisa ser preenchido corretamente.";
+var CONTACT_MISSING_PHONE = "O campo Telefone precisa ser preenchido.";
+var CONTACT_MISSING_MESSAGE = "O campo Mensagem precisa ser preenchido.";
+</script>
+<script>
+$(".product-selos-cheddar-australiano").click(function(){
+  $(".popup-cheddar-australiano").toggle();
+});
+
+$(".product-selos-crispy-bacon").click(function(){
+  $(".popup-crispy-bacon").toggle();
+});
+
+$(".product-selos-double-cheese").click(function(){
+  $(".popup-double-cheese").toggle();
+});
+
+$(".product-selos-cheeseburger").click(function(){
+  $(".popup-cheeseburger").toggle();
+});
+
+$(".product-selos-mini").click(function(){
+  $(".popup-mini").toggle();
+});
+
+$(".product-selos-cheddar-australiano-mobile").click(function(){
+  $(".popup-cheddar-australiano-mobile").toggle();
+});
+
+$(".product-selos-crispy-bacon-mobile").click(function(){
+  $(".popup-crispy-bacon-mobile").toggle();
+});
+
+$(".product-selos-double-cheese-mobile").click(function(){
+  $(".popup-double-cheese-mobile").toggle();
+});
+
+$(".product-selos-cheeseburger-mobile").click(function(){
+  $(".popup-cheeseburger-mobile").toggle();
+});
+
+$(".product-selos-mini-mobile").click(function(){
+  $(".popup-mini-mobile").toggle();
+});
+</script>
+<script src="{% static 'js/contact-v2.js' %}"></script>
+<script src="{% static 'js/stores-v1.js' %}"></script>
+{% endblock %}
+
+{% block content %}
+
+<div class="banner-v3-section"></div>
+
+<div id="texto-abaixo-banner-v3" class="linhas-section">
+  <div class="linhas-text">
+    Há 70 anos o <strong>Bob's</strong> constrói boas memórias no coração e no paladar dos brasileiros.
+    Com a linha <strong>Bob's Em Casa</strong> você leva os clássicos molhos do <strong>Bob's</strong> para casa e adiciona mais sabor e cremosidade na hora de comer.
+    Agora você pode criar <strong>novas combincações</strong> e saborear <strong>nossos molhos no seu dia a dia.</strong>
+  </div>
+  <div class="linhas-board visible-gt-767">
+    <img src="{% static 'img/lousa-selos.jpg' %}" class="linhas-board-image" />
+  </div>
+  <div class="linhas-board" id="lousa-selos-mobile">
+    <img src="{% static 'img/lousa-selos-mobile.jpg' %}" class="linhas-board-image" />
+  </div>
+  <div id="texto-apresentamos" class="linhas-text" style="padding-bottom:5px;">
+    Apresentamos
+  </div>
+  <div class="banner-image-div pb-5 visible-gt-767">
+    <img id="img-banner-classicos" src="{% static 'img/banner-os-classicos.png'%}" class="" alt="Os clássicos molhos do Bob's" />
+  </div>
+  <div id="banner-classicos-mobile" class="banner-image-div pb-5">
+    <img src="{% static 'img/banner-os-classicos-mobile.png'%}" class="" alt="Os clássicos molhos do Bob's" />
+  </div>
+</div>
+
+<a name="linha" class="ancora"></a>
+<div class="molhos-section molho-big-bob-section"></div>
+
+<div class="molhos-section molho-bob-salad-section"></div>
+
+<div class="contact-section">
+  <a name="ondeencontrar" class="ancora"></a>
+  <div class="contact-title1">
+    Se ficar na dúvida <strong>experimente todos</strong>.
+  </div>
+  
+  <div class="contact-title2">
+    Encontre uma loja Bob's ou Supermercado perto de você!
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <div class="lojas-box">
+          <div class="lojas-form">
+            <select required name="estado_field" id="estado_field">
+              <option value="" class="contat-channel-parent">Estado (selecione)</option>
+              <option value="AM">Amazonas</option>
+              <option value="BA">Bahia</option>
+              <option value="CE">Ceará</option>
+              <option value="ES">Espírito Santo</option>
+              <option value="GO">Goiânia</option>
+              <option value="MA">Maranhão</option>
+              <option value="MG">Minas Gerais</option>
+              <option value="PB">Paraíba</option>
+              <option value="PR">Paraná</option>
+              <option value="RJ">Rio de Janeiro</option>
+              <option value="RS">Rio Grande do Sul</option>
+              <option value="SC">Santa Catarina</option>
+              <option value="SP">São Paulo</option>
+            </select>
+          </div>
+          <div id="store-content">
+          </div>
+        </div>
+
+        <div class="lojas-box">
+          Se preferir, <a href="https://chamaobobs.com.br/" target="_blank"><u>clique aqui</u></a> chama o Bob's e receba em casa!
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <a name="contato" class="ancora"></a>
+  <div class="contact-separator">
+    <img src="{% static 'img/waves-separator-red.png'%}" class="contact-separator-image" />
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="contact-form-text-col col-sm-12 col-md-6">
+        <div class="contact-form-title">
+          Entre em contato <br>
+          com a gente!
+        </div>
+        <div class="contact-form-text">
+          Queremos saber sua opinião, <br class="visible-gt-767" />
+          dúvida ou sugestão sobre a linha. <br class="visible-gt-767" />
+          Preencha alguns dados em nosso <br class="visible-gt-767" />
+          formulário e aguarde nosso contato.
+        </div>
+      </div>
+      <div class="contact-form col-sm-12 col-md-6">
+        <select required name="channel_field" id="channel_field">
+          <option value="" class="contat-channel-parent">Fale Conosco (selecione)</option>
+          <option value="1">SAC Linha Sanduíches</option>
+          <option value="2">SAC Linha Molhos</option>
+        </select> <br />
+        <input type="text" id="name_field" name="name_field" placeholder="Nome"></input> <br />
+        <input type="text" id="email_field" name="email_field" placeholder="Email"></input> <br />
+        <input type="text" id="phone_field" name="phone_field" placeholder="Telefone"></input> <br />
+        <textarea rows="5" id="message_field" name="message_field" placeholder="Mensagem"></textarea>
+        <div class="contact-send-line">
+          <div class="contact-send" id="contact-send" style="cursor: pointer;">
+            Enviar Mensagem
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

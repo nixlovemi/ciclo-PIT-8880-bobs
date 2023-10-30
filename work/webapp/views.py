@@ -16,6 +16,7 @@ def build_context(**kwargs):
         "lang": "pt-br",
         "title": "Bob's em Casa",
         "copyright": f"Bob's {year} - Todos os direitos reservados",
+        "copyright_tmp": f"Bob's 2021 - Todos os direitos reservados",
     }
     base_context = {
         "config": config,
@@ -28,6 +29,9 @@ def index(request):
     context = build_context()
     return HttpResponse(render(request, "home.html", context))
 
+def index_tmp(request):
+    context = build_context()
+    return HttpResponse(render(request, "home-tmp.html", context))
 
 def cookies(request):
     context = build_context()
