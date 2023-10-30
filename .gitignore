@@ -161,3 +161,5 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 work/frontend.log
+work/webapp/__pycache__/views.cpython-312.pyc
+work/webapp/__pycache__/urls.cpython-312.pyc

@@ -62,22 +62,6 @@
   line-height: 1;
   text-align: center;
 }
-
-.footer-logo-image {
-  margin-top: 0;
-  padding-top: 25px;
-  width: 18%;
-}
-
-.footer-separator {
-  width: 100%;
-  margin-top: 10px;
-}
-
-.footer-social {
-  font-family: "Omnes";
-  font-size: 1.2em;
-}
 /* ============================== */
 
 /* banner */
@@ -793,11 +777,6 @@ select {
   .contact-form textarea,
   .contact-form select,
   .contact-form select > option {
-    width: 100%;
-  }
-
-  .footer-social span {
-    display: block;
     width: 100%;
   }
 }

@@ -236,13 +236,16 @@ a.ancora {
 }
 
 .footer-logo-image {
-  width: 130px;
-  margin-top: -20px;
+  margin-top: 0;
+  padding-top: 25px;
+  width: 18%;
 }
 
 .footer-social {
   padding-top: 20px;
   text-align: center;
+  font-family: "Omnes";
+  font-size: 1.2em;
 }
 
 .footer-social > a {
@@ -265,9 +268,10 @@ a.ancora {
 }
 
 .footer-separator {
-  width: 50%;
+  width: 100%;
   margin: auto;
   padding-top: 10px;
+  margin-top: 10px;
   border-bottom-color: #000000;
   border-bottom-width: 1px;
   border-bottom-style: solid;
@@ -348,5 +352,10 @@ a.ancora {
     float: none;
     margin-top: 0px;
     padding-top: 15px;
+  }
+
+  .footer-social span {
+    display: block;
+    width: 100%;
   }
 }
