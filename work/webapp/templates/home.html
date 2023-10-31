@@ -66,288 +66,44 @@ $(".product-selos-mini-mobile").click(function(){
 
 {% block content %}
 
-<div class="banner-section">
-  <div class="banner-image-div">
-    <img src="{% static 'img/banner-v2.png'%}" class="banner-image" alt="Chegou Bob's em Casa, leva e experimenta" />
-  </div>
-</div>
+<div class="banner-v3-section"></div>
 
-<div class="linhas-waves-up">
+<div id="texto-abaixo-banner-v3" class="linhas-section">
+  <div class="linhas-text">
+    Há 70 anos o <strong>Bob's</strong> constrói boas memórias no coração e no paladar dos brasileiros.
+    Com a linha <strong>Bob's Em Casa</strong> você leva os clássicos molhos do <strong>Bob's</strong> para casa e adiciona mais sabor e cremosidade na hora de comer.
+    Agora você pode criar <strong>novas combincações</strong> e saborear <strong>nossos molhos no seu dia a dia.</strong>
+  </div>
+  <div class="linhas-board visible-gt-767">
+    <img src="{% static 'img/lousa-selos.jpg' %}" class="linhas-board-image" />
+  </div>
+  <div class="linhas-board" id="lousa-selos-mobile">
+    <img src="{% static 'img/lousa-selos-mobile.jpg' %}" class="linhas-board-image" />
+  </div>
+  <div id="texto-apresentamos" class="linhas-text" style="padding-bottom:5px;">
+    Apresentamos
+  </div>
+  <div class="banner-image-div pb-5 visible-gt-767">
+    <img id="img-banner-classicos" src="{% static 'img/banner-os-classicos.png'%}" class="" alt="Os clássicos molhos do Bob's" />
+  </div>
+  <div id="banner-classicos-mobile" class="banner-image-div pb-5">
+    <img src="{% static 'img/banner-os-classicos-mobile.png'%}" class="" alt="Os clássicos molhos do Bob's" />
+  </div>
 </div>
 
 <a name="linha" class="ancora"></a>
+<div class="molhos-section molho-big-bob-section"></div>
 
-<div class="linhas-section">
-  <div class="linhas-title">
-    Um novo jeito de consumir Bob's!
-  </div>
-  <div class="linhas-text">
-    Há 70 anos o <strong>Bob's</strong> constrói boas memórias no coração e no <br class="visible-gt-767" />
-    paladar dos brasileiros. Chegou a hora de ampliar essas experiências <br class="visible-gt-767" />
-    e conquistar <strong>Bob's fãs</strong> pelo Brasil.
-  </div>
-  <div class="linhas-board visible-gt-767">
-    <img src="{% static 'img/linhas-board.png'%}" class="linhas-board-image" />
-  </div>
-  <div class="linhas-board visible-lt-767">
-    <img src="{% static 'img/linhas-board-mobile.png'%}" class="linhas-board-image " />
-  </div>
-  <div class="linhas-selos visible-gt-767">
-    <img src="{% static 'img/linhas-selos.png'%}" class="linhas-selos-image" />
-  </div>
-  <div class="linhas-selos visible-lt-767">
-    <img src="{% static 'img/linhas-selos-mobile.png'%}" class="linhas-selos-image" />
-  </div>
-</div>
-
-<div class="experiencia-section">
-  <div class="experiencia-waves-down">
-  </div>
-  <div class="experiencia-title">
-    Tá pronto para essa nova experiência?
-  </div>
-</div>
-
-<a name="produtos" class="ancora"></a>
-
-<div class="products-waves-up">
-</div>
-<div class="products-section">
-  <div class="products-title">
-    Os Sabores Clássicos agora na sua casa!
-  </div>
-  <div class="products-text">
-    Confira todas as deliciosas opções da linha <strong>Bob's Em Casa.</strong>
-    <br />
-    Se ficar na dúvida, <strong>leva e experimenta todas!</strong>
-  </div>
-
-  <div class="products-separator">
-    <img src="{% static 'img/waves-separator.png'%}" class="products-separator-image" />
-  </div>
-
-  <div class="container">
-    <div class="row">
-      <div class="product-left-text-col col-sm-12 col-md-6">
-        <div class="product-title">
-          Cheddar <br />
-          Australiano
-        </div>
-        <div class="product-text">
-          Ninguém resiste ao aroma e sabor de um pão australiano <br class="visible-gt-767" />
-          levemente adocicado com dois hambúrgueres bem  <br class="visible-gt-767" />
-          suculentos de carne bovina, molho cheddar super cremoso, <br class="visible-gt-767" />
-          finalizado com uma porção inconfundível de cebola <br class="visible-gt-767" />
-          caramelizado ao shoyu. Um tipo de lanche especial,  <br class="visible-gt-767" />
-          para ninguém botar defeito.
-        </div>
-        <div class="product-selos visible-gt-767" style="cursor: pointer;">
-          <img src="{% static 'img/produto-selos-carne.png'%}" class="product-selos-image product-selos-cheddar-australiano" />
-        </div>
-      </div>
-      <div class="product-right-image-col col-sm-12 col-md-6">
-        <div class="product-image-div">
-          <img src="{% static 'img/produto-cheddar-australiano.png'%}" class="product-image product-image-cheddar-australiano" />
-          <img src="{% static 'img/popup-cheddar-australiano.png'%}" class="popup-image popup-cheddar-australiano" />
-          <img src="{% static 'img/popup-cheddar-australiano-mobile.png'%}" class="popup-image popup-cheddar-australiano-mobile" />
-        </div>
-        <div class="product-selos visible-lt-767" style="cursor: pointer;">
-          <img src="{% static 'img/produto-selos-carne.png'%}" class="product-selos-image product-selos-cheddar-australiano-mobile" />
-        </div>
-      </div>
-    </div>
-
-    <div class="products-separator">
-      <img src="{% static 'img/waves-separator.png'%}" class="products-separator-image" />
-    </div>
-
-    <div class="row">
-      <div class="product-left-image-col col-sm-12 col-md-6 visible-gt-767">
-        <div class="product-image-div">
-          <img src="{% static 'img/produto-crispy-bacon.png'%}" class="product-image product-image-crispy-bacon" />
-          <img src="{% static 'img/popup-crispy-bacon.png'%}" class="popup-image popup-crispy-bacon" />
-        </div>
-      </div>
-      <div class="product-right-text-col col-sm-12 col-md-6">
-        <div class="product-title">
-          Crispy Bacon
-        </div>
-        <div class="product-text">
-          Sinta o sabor e a textura de dois empanados de frango<br class="visible-gt-767" />
-          super crocantes com um queijo prato que derrete na boca,<br class="visible-gt-767" />
-          fatias de bacon para trazer ainda mais crocância para essa<br class="visible-gt-767" />
-          experiência e a exclusiva e original maionese do Bob’s.<br />
-          Surpreendentemente saboroso.
-        </div>
-        <div class="product-selos visible-gt-767" style="cursor: pointer;">
-          <img src="{% static 'img/produto-selos-frango.png'%}" class="product-selos-image product-selos-crispy-bacon" />
-        </div>
-      </div>
-      <div class="product-left-image-col col-sm-12 col-md-6 visible-lt-767">
-        <div class="product-image-div">
-          <img src="{% static 'img/produto-crispy-bacon.png'%}" class="product-image product-image-crispy-bacon" />
-          <img src="{% static 'img/popup-crispy-bacon.png'%}" class="popup-image popup-crispy-bacon" />
-          <img src="{% static 'img/popup-crispy-bacon-mobile.png'%}" class="popup-image popup-crispy-bacon-mobile" />
-        </div>
-        <div class="product-selos" style="cursor: pointer;">
-          <img src="{% static 'img/produto-selos-frango.png'%}" class="product-selos-image product-selos-crispy-bacon-mobile" />
-        </div>
-      </div>
-    </div>
-
-    <div class="products-separator">
-      <img src="{% static 'img/waves-separator.png'%}" class="products-separator-image" />
-    </div>
-
-    <div class="row">
-      <div class="product-left-text-col col-sm-12 col-md-6">
-        <div class="product-title">
-          &nbsp;<br />
-          Double Cheese
-        </div>
-        <div class="product-text">
-          Se você sempre pede o dobro de carne e queijo esse lanche <br class="visible-gt-767" />
-          é para você! Dois hambúrgueres de carne 100% bovina <br class="visible-gt-767" />
-          e selecionada, experiência dupla de um queijo prato que <br class="visible-gt-767" />
-          derrete na boca em um pão bem macio e fresquinho.  <br />
-          Um lanche delicioso que todo mundo ama apreciar.
-        </div>
-        <div class="product-selos product-selos-double-cheese visible-gt-767" style="cursor: pointer;">
-          <img src="{% static 'img/produto-selos-carne.png'%}" class="product-selos-image" />
-        </div>
-      </div>
-      <div class="product-right-image-col col-sm-12 col-md-6">
-        <div class="product-image-div">
-          <img src="{% static 'img/produto-double-cheese.png'%}" class="product-image product-image-double-cheese" />
-          <img src="{% static 'img/popup-double-cheese.png'%}" class="popup-image popup-double-cheese" />
-          <img src="{% static 'img/popup-double-cheese-mobile.png'%}" class="popup-image popup-double-cheese-mobile" />
-        </div>
-        <div class="product-selos product-selos-double-cheese-mobile visible-lt-767" style="cursor: pointer;">
-          <img src="{% static 'img/produto-selos-carne.png'%}" class="product-selos-image" />
-        </div>
-      </div>
-    </div>
-
-    <div class="products-separator">
-      <img src="{% static 'img/waves-separator.png'%}" class="products-separator-image" />
-    </div>
-
-    <div class="row">
-      <div class="product-left-image-col col-sm-12 col-md-6 visible-gt-767">
-        <div class="product-image-div">
-          <img src="{% static 'img/produto-cheeseburger.png'%}" class="product-image product-image-cheeseburger" />
-          <img src="{% static 'img/popup-cheeseburger.png'%}" class="popup-image popup-cheeseburger" />
-        </div>
-      </div>
-      <div class="product-right-text-col col-sm-12 col-md-6">
-        <div class="product-title">
-          Cheeseburger
-        </div>
-        <div class="product-text">
-          O clássico no Bob’s não é apenas um cheeseburger, é o <br class="visible-gt-767" />
-          cheeseburger. Que leva um suculento hambúrguer 100% <br class="visible-gt-767" />
-          bovino de carne selecionada, acompanhado de um queijo <br class="visible-gt-767" />
-          prato deliciosamente derretido em um pão macio e <br class="visible-gt-767" />
-          fresco. O clássico perfeito, que todo mundo ama.
-        </div>
-        <div class="product-selos product-selos-cheeseburger visible-gt-767" style="cursor: pointer;">
-          <img src="{% static 'img/produto-selos-carne.png'%}" class="product-selos-image" />
-        </div>
-      </div>
-      <div class="product-left-image-col col-sm-12 col-md-6 visible-lt-767">
-        <div class="product-image-div">
-          <img src="{% static 'img/produto-cheeseburger.png'%}" class="product-image product-image-cheeseburger" />
-          <img src="{% static 'img/popup-cheeseburger-mobile.png'%}" class="popup-image popup-cheeseburger-mobile" />
-        </div>
-        <div class="product-selos product-selos-cheeseburger-mobile" style="cursor: pointer;">
-          <img src="{% static 'img/produto-selos-carne.png'%}" class="product-selos-image" />
-        </div>
-      </div>
-    </div>
-
-    <div class="products-separator">
-      <img src="{% static 'img/waves-separator.png'%}" class="products-separator-image" />
-    </div>
-
-    <div class="row">
-      <div class="product-left-text-col col-sm-12 col-md-6">
-        <div class="product-title">
-          Mini <br />
-          Cheeseburger
-        </div>
-        <div class="product-text">
-          Essa é a famosa porção dos deuses! Dividir, com certeza,<br class="visible-gt-767" />
-          será um desafio. Quatro mini cheeseburgers compostos por<br class="visible-gt-767" />
-          um hambúrguer de carne muito saboroso, com uma<br class="visible-gt-767" />
-          apetitosa fatia de queijo prato derretido em um pãozinho,<br class="visible-gt-767" />
-          supermacio e aveludado. Pequenas delícias que<br class="visible-gt-767" />
-          combinam com momentos gostosos em casa.
-        </div>
-        <div class="product-selos product-selos-mini visible-gt-767" style="cursor: pointer;">
-          <img src="{% static 'img/produto-selos-carne.png'%}" class="product-selos-image" />
-        </div>
-      </div>
-      <div class="product-right-image-col col-sm-12 col-md-6">
-        <div class="product-image-div">
-          <img src="{% static 'img/produto-mini.png'%}" class="product-image product-image-mini" />
-          <img src="{% static 'img/popup-mini.png'%}" class="popup-image popup-mini" />
-          <img src="{% static 'img/popup-mini-mobile.png'%}" class="popup-image popup-mini-mobile" />
-        </div>
-        <div class="product-selos product-selos-mini-mobile visible-lt-767" style="cursor: pointer;">
-          <img src="{% static 'img/produto-selos-carne.png'%}" class="product-selos-image" />
-        </div>
-      </div>
-    </div>
-
-    <div class="products-separator">
-      <img src="{% static 'img/waves-separator.png'%}" class="products-separator-image" />
-    </div>
-
-    <div class="row">
-      <div class="product-left-image-col col-sm-12 col-md-6 visible-gt-767">
-        <div class="product-image-div">
-          <img src="{% static 'img/produto-molho.png'%}" class="product-image product-image-molho" />
-        </div>
-      </div>
-      <div class="product-right-text-col col-sm-12 col-md-6">
-        <div class="product-title">
-          &nbsp; <br class="visible-gt-767" />
-          &nbsp; <br class="visible-gt-767" />
-          &nbsp; <br />
-          Molho Big Bob
-          &nbsp; <br />
-        </div>
-        <div class="product-text">
-          Ele é único e exclusivo! <br />
-          Aprecie o verdadeiro Molho Big Bob e deixe seu sanduíche<br class="visible-gt-767" />
-          ainda mais saboroso. Que tal abusar da criatividade para criar<br class="visible-gt-767" />
-          novas combinações? Imagina mergulhar aquela batatinha frita<br class="visible-gt-767" />
-          bem quentinha? Hummmmm…  <br />
-          Experimente o nosso Molho Big Bob, ele combina com tudo.<br class="visible-gt-767" />
-          Acompanha muito bem saladas, petiscos, carnes e suas<br class="visible-gt-767" />
-          receitas favoritas!
-        </div>
-      </div>
-      <div class="product-left-image-col col-sm-12 col-md-6 visible-lt-767">
-        <div class="product-image-div">
-          <img src="{% static 'img/produto-molho.png'%}" class="product-image product-image-molho" />
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+<div class="molhos-section molho-bob-salad-section"></div>
 
 <div class="contact-section">
-
   <a name="ondeencontrar" class="ancora"></a>
-
-  <div class="contact-waves-down">
-  </div>
   <div class="contact-title1">
-    Para <strong>levar e experimentar</strong> essa novidade em casa,
+    Se ficar na dúvida <strong>experimente todos</strong>.
   </div>
+  
   <div class="contact-title2">
-    Encontre uma loja Bob's ou supermercado perto de você!
+    Encontre uma loja Bob's ou Supermercado perto de você!
   </div>
 
   <div class="container">
@@ -375,12 +131,15 @@ $(".product-selos-mini-mobile").click(function(){
           <div id="store-content">
           </div>
         </div>
+
+        <div class="lojas-box">
+          Se preferir, <a href="https://chamaobobs.com.br/" target="_blank"><u>clique aqui</u></a> chama o Bob's e receba em casa!
+        </div>
       </div>
     </div>
   </div>
 
   <a name="contato" class="ancora"></a>
-
   <div class="contact-separator">
     <img src="{% static 'img/waves-separator-red.png'%}" class="contact-separator-image" />
   </div>

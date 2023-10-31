@@ -1,3 +1,69 @@
+/* ========= 29-10-2023 ========= */
+.mb-5 {
+  margin-bottom: 40px !important;
+}
+
+.pb-5 {
+  padding-bottom: 40px !important;
+}
+
+.banner-image {
+  width: 60%;
+}
+
+.banner-image-v3 {
+  width: 100vw;
+}
+
+#img-banner-classicos {
+  width: 50vw;
+  height: auto;
+}
+
+.molhos-section {
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  color: #ffffff;
+}
+
+.molho-big-bob-section {
+  height: 70vw;
+  background-image: url("../img/banner-molho-big-bobs.jpg");
+}
+
+.molho-bob-salad-section {
+  height: 70vw;
+  background-image: url("../img/banner-molho-bobs-salad.jpg");
+}
+
+.banner-v3-section {
+  margin-top: -10px;
+  height: 70vw;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  background-image: url("../img/banner-v3.jpg");
+}
+
+#lousa-selos-mobile,
+#banner-classicos-mobile {
+  display: none;
+}
+
+#estado_field {
+  width: 100%;
+}
+
+.container .lojas-box:nth-child(2) {
+  margin-top: 30px;
+  font-family: "Microbrew Soft Four";
+  font-size: 38px;
+  line-height: 1;
+  text-align: center;
+}
+/* ============================== */
+
 /* banner */
 .banner-section {
   margin-top: -10px;
@@ -9,24 +75,6 @@
 
 .banner-image-div {
   text-align: center;
-}
-
-.banner-image {
-  width: 70%;
-}
-
-@media (max-width: 767px) {
-  .banner-section {
-    margin-top: -20px;
-    background-image: url("../img/bg-banner-mobile.png");
-    background-size: 100%;
-    background-position-x: center;
-    background-position-y: center;
-    height: 150vw;
-  }
-  .banner-image {
-    display: none !important;
-  }
 }
 
 /* linhas */
@@ -53,14 +101,16 @@
 
 .linhas-text {
   text-align: center;
-  font-size: 18px;
+  font-size: 20px;
   font-family: "Omnes";
-  padding-left: 10px;
-  padding-right: 10px;
+  width: 50%;
+  margin-left: 25%;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .linhas-text > strong {
-  font-size: 18px;
+  font-size: 20px;
   font-family: "Omnes";
 }
 
@@ -71,6 +121,7 @@
 
 .linhas-board-image {
   width: 50%;
+  box-shadow: 3px 3px 17px 1px #000000;
 }
 
 .linhas-selos {
@@ -81,17 +132,6 @@
 
 .linhas-selos-image {
   width: 40%;
-}
-
-@media (max-width: 767px) {
-  .linhas-waves-up {
-    height: 1.4vw;
-    background-size: 100%;
-    margin-top: -21px;
-  }
-  .linhas-board-image {
-    width: 100%;
-  }
 }
 
 /* experiencia */
@@ -118,31 +158,6 @@
   text-transform: uppercase;
   font-family: "Microbrew Soft Four";
   font-size: 55px;
-}
-
-@media (max-width: 767px) {
-  .experiencia-section {
-    height: 105vw;
-    background-image: url("../img/experiencia-mobile.jpeg");
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: center;
-    color: #ffffff;
-  }
-  .experiencia-waves-down {
-    height: 1.4vw;
-    background-size: 100%;
-    margin-top: -25px;
-  }
-  .experiencia-title {
-    padding-top: 10px;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: "Microbrew Soft Four";
-    font-size: 35px;
-    padding-left: 10%;
-    padding-right: 10%;
-  }
 }
 
 /* products */
@@ -351,65 +366,6 @@
   z-index: 200;
 }
 
-@media (max-width: 767px) {
-  .products-waves-up {
-    height: 1.4vw;
-    background-size: 100%;
-    margin-top: -21px;
-  }
-  .products-separator-image {
-    width: 80%;
-  }
-  .products-title {
-    font-size: 35px;
-  }
-  .product-title {
-    text-align: center !important;
-  }
-  .product-text {
-    text-align: center !important;
-  }
-  .product-selos {
-    text-align: center !important;
-  }
-  .product-selos {
-    padding-bottom: 20px;
-  }
-  .product-selos > img {
-    padding-left: 5%;
-    padding-right: 5%;
-    width: 100%;
-  }
-  .product-image {
-    padding-left: 2%;
-    padding-right: 2%;
-    width: 100%;
-  }
-  .product-image-cheddar-australiano {
-    margin-left: 0px;
-    margin-top: -80px;
-  }
-  .product-image-crispy-bacon {
-    margin-top: -60px;
-  }
-  .product-image-double-cheese {
-    margin-left: 0px;
-    margin-top: -80px;
-  }
-  .product-image-cheeseburger {
-    margin-top: -80px;
-  }
-  .product-image-mini {
-    padding-top: 10px;
-    padding-left: 15%;
-    width: 100%;
-  }
-  .product-image-molho {
-    width: 100%;
-    margin-top: 0px;
-  }
-}
-
 /* contact */
 .contact-section {
   background-image: url("../img/bg-rocks.jpeg");
@@ -533,36 +489,6 @@ select {
   padding: 12px;
 }
 
-@media (max-width: 767px) {
-  .contact-waves-down {
-    height: 1.4vw;
-    background-size: 100%;
-    margin-top: -25px;
-  }
-  .contact-pin {
-    padding-top: 30px;
-    width: 40px;
-  }
-  .contact-title2 {
-    font-size: 35px;
-  }
-  .contact-separator-image {
-    width: 80%;
-  }
-  .contact-form-title {
-    text-align: center;
-  }
-  .contact-form-text {
-    text-align: center;
-  }
-  .contact-form input,
-  textarea,
-  select,
-  select > option {
-    width: 100%;
-  }
-}
-
 /* lojas */
 .lojas-box {
   margin-left: 10%;
@@ -650,17 +576,136 @@ select {
   text-decoration: underline;
 }
 
-@media (max-width: 991px) {
-  .lojas-form select,
-  .lojas-form select > option {
+@media (max-width: 767px) {
+  .banner-section {
+    margin-top: -20px;
+    background-image: url("../img/bg-banner-mobile.png");
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: center;
+    height: 150vw;
+  }
+  .banner-image {
+    display: none !important;
+  }
+
+  .linhas-waves-up {
+    height: 1.4vw;
+    background-size: 100%;
+    margin-top: -21px;
+  }
+  .linhas-board-image {
     width: 100%;
   }
-  .store-item {
-    width: 46%;
-  }
-}
 
-@media (max-width: 767px) {
+  .experiencia-section {
+    height: 105vw;
+    background-image: url("../img/experiencia-mobile.jpeg");
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    color: #ffffff;
+  }
+  .experiencia-waves-down {
+    height: 1.4vw;
+    background-size: 100%;
+    margin-top: -25px;
+  }
+  .experiencia-title {
+    padding-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Microbrew Soft Four";
+    font-size: 35px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .products-waves-up {
+    height: 1.4vw;
+    background-size: 100%;
+    margin-top: -21px;
+  }
+  .products-separator-image {
+    width: 80%;
+  }
+  .products-title {
+    font-size: 35px;
+  }
+  .product-title {
+    text-align: center !important;
+  }
+  .product-text {
+    text-align: center !important;
+  }
+  .product-selos {
+    text-align: center !important;
+  }
+  .product-selos {
+    padding-bottom: 20px;
+  }
+  .product-selos > img {
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 100%;
+  }
+  .product-image {
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 100%;
+  }
+  .product-image-cheddar-australiano {
+    margin-left: 0px;
+    margin-top: -80px;
+  }
+  .product-image-crispy-bacon {
+    margin-top: -60px;
+  }
+  .product-image-double-cheese {
+    margin-left: 0px;
+    margin-top: -80px;
+  }
+  .product-image-cheeseburger {
+    margin-top: -80px;
+  }
+  .product-image-mini {
+    padding-top: 10px;
+    padding-left: 15%;
+    width: 100%;
+  }
+  .product-image-molho {
+    width: 100%;
+    margin-top: 0px;
+  }
+
+  .contact-waves-down {
+    height: 1.4vw;
+    background-size: 100%;
+    margin-top: -25px;
+  }
+  .contact-pin {
+    padding-top: 30px;
+    width: 40px;
+  }
+  .contact-title2 {
+    font-size: 35px;
+  }
+  .contact-separator-image {
+    width: 80%;
+  }
+  .contact-form-title {
+    text-align: center;
+  }
+  .contact-form-text {
+    text-align: center;
+  }
+  .contact-form input,
+  textarea,
+  select,
+  select > option {
+    width: 100%;
+  }
+
   .lojas-form select,
   .lojas-form select > option {
     width: 100%;
@@ -677,5 +722,71 @@ select {
   .store-item {
     width: 100%;
     float: none;
+  }
+
+  .banner-v3-section {
+    height: 178vw;
+    background-image: url("../img/banner-v3-mobile.jpg");
+  }
+
+  #texto-abaixo-banner-v3 .linhas-text {
+    width: 85%;
+    margin-left: 7.5%;
+  }
+
+  #lousa-selos-mobile {
+    display: block;
+    margin-top: -15px;
+  }
+
+  .linhas-board-image {
+    box-shadow: none;
+  }
+
+  #texto-apresentamos {
+    font-size: 2em !important;
+    padding-top: 5px;
+  }
+
+  #img-banner-classicos {
+    width: 85vw;
+  }
+
+  #banner-classicos-mobile {
+    display: block;
+  }
+  #banner-classicos-mobile img {
+    width: 62vw;
+  }
+
+  .molho-big-bob-section {
+    height: 221vw;
+    background-image: url("../img/banner-molho-big-bobs-mobile.jpg");
+  }
+
+  .molho-bob-salad-section {
+    height: 221vw;
+    background-image: url("../img/banner-molho-bobs-salad-mobile.jpg");
+  }
+
+  .footer-logo-image {
+    width: 36%;
+  }
+
+  .contact-form input,
+  .contact-form textarea,
+  .contact-form select,
+  .contact-form select > option {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .lojas-form select,
+  .lojas-form select > option {
+    width: 100%;
+  }
+  .store-item {
+    width: 46%;
   }
 }

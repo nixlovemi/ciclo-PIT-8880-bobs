@@ -42,7 +42,6 @@
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
           <li><a href="/#linha">Conheça a Linha</a></li>
-          <li><a href="/#produtos">Produtos</a></li>
           <li><a href="/#ondeencontrar">Onde encontrar</a></li>
           <li><a href="/#contato">Contato</a></li>
         </ul>
@@ -59,34 +58,43 @@
       <div class="footer-logo">
         <img src="{% static 'img/logo-footer.png'%}" class="footer-logo-image" />
       </div>
-      <div class="footer-social">
-        <a href="/politica-de-privacidade" target="_blank">Política de Privacidade</a> |
-        <a href="/politica-de-cookies" target="_blank">Política de Cookies</a> |
-        <a href="/termos-de-uso" target="_blank">Termos de Uso</a></li>
-      </div>
+
       <div class="footer-social">
         <a href="https://www.instagram.com/bobsbrasil/" target="_blank" rel="noopener">
           <img src="{% static 'img/instagram.png'%}" class="instagram" /> @Bobsbrasil
         </a>
+        &nbsp;&nbsp;&nbsp;
         <a href="https://pt-br.facebook.com/bobsbrasil/" target="_blank" rel="noopener">
           <img src="{% static 'img/facebook.png'%}" class="facebook" /> Bob's Brasil
         </a>
+        &nbsp;&nbsp;&nbsp;
         |
+        &nbsp;&nbsp;&nbsp;
         <a href="https://bobs.com.br/" target="_blank" rel="noopener">
           Bobs.com.br
         </a>
       </div>
+
       <div class="footer-separator-wrapper">
         <div class="footer-separator">
         </div>
       </div>
-      <div class="footer-copyright">
-        &copy; {{ text.copyright }}
+
+      <div class="footer-social">
+        <span>
+            &copy; {{ text.copyright }}
+            &nbsp;|&nbsp;
+        </span>
+
+        <a href="/politica-de-privacidade" target="_blank">Política de Privacidade</a> |
+        <a href="/politica-de-cookies" target="_blank">Política de Cookies</a> |
+        <a href="/termos-de-uso" target="_blank">Termos de Uso</a></li>
       </div>
+
       <div class="footer-ciclo">
         <p>
           <br />
-          <a href="http://www.ciclocomunicacao.com.br/" target="_blank" rel="noopener"><img src="{% static 'img/ciclo-v1.png' %}" width="40px" alt="Visitar site da Agência Ciclo"></a>
+          Desenvolvido por: <a href="http://www.ciclocomunicacao.com.br/" target="_blank" rel="noopener"><img src="{% static 'img/ciclo-v1.png' %}" width="80px" alt="Visitar site da Agência Ciclo"></a>
           <br />
         </p>
       </div>
