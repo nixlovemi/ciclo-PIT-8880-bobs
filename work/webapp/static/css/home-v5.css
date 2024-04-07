@@ -37,13 +37,18 @@
   background-image: url("../img/banner-molho-bobs-salad.jpg");
 }
 
+.molho-bob-grill-section {
+  height: 70vw;
+  background-image: url("../img/banner-molho-bobs-grill.jpg");
+}
+
 .banner-v3-section {
   margin-top: -10px;
   height: 70vw;
   background-size: cover;
   background-position-x: center;
   background-position-y: center;
-  background-image: url("../img/banner-v3.jpg");
+  background-image: url("../img/banner-v4.jpg");
 }
 
 #lousa-selos-mobile,
@@ -726,7 +731,7 @@ select {
 
   .banner-v3-section {
     height: 178vw;
-    background-image: url("../img/banner-v3-mobile.jpg");
+    background-image: url("../img/banner-v4-mobile.jpg");
   }
 
   #texto-abaixo-banner-v3 .linhas-text {
@@ -767,6 +772,11 @@ select {
   .molho-bob-salad-section {
     height: 221vw;
     background-image: url("../img/banner-molho-bobs-salad-mobile.jpg");
+  }
+
+  .molho-bob-grill-section {
+    height: 221vw;
+    background-image: url("../img/banner-molho-bobs-grill-mobile.jpg");
   }
 
   .footer-logo-image {
